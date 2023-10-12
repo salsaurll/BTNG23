@@ -1,0 +1,63 @@
+/*h1{
+    color: red;
+}*/
+
+h1 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 15px;
+  background-color: beige;
+}
+span {
+  color: red;
+}
+.container {
+  width: 400px;
+  height: auto;
+  box-shadow: 10px 13px 0 -1px rgb(138, 57, 57);
+}
+
+#judul1 {
+  font-weight: 800;
+  color: red;
+  text-decoration: underline;
+}
+#judul2 {
+  font-weight: 800;
+  color: green;
+}
+.content {
+  background-color: beige;
+}
+.container2,
+.head1,
+.content1 {
+  color: blueviolet;
+}
+.container2 .content {
+  background-color: rosybrown;
+}
+.container2 p {
+  font-size: 20px;
+}
+.box {
+  background-color: indianred;
+  width: 100px;
+  height: 100px;
+}
+.box a {
+  color: white;
+  font-size: 30px;
+}
+.box:hover {
+  background-color: cornflowerblue;
+}
+/*.box a:hover {
+    color: greenyellow;
+} */
+.box:hover > a {
+  color: aqua;
+}
