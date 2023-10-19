@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Bootsrap</title>
+
+    <!-- CSS Bootsrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="p-5 m-0 bg-secondary w-75"></div>
+
+    <!-- Text Allgnment, Font Size, Font Weight -->
+    <h1 class="text-start text-primary fs-2 fw-bold">
+      Text Start Primary fs-2 fw-bold
+    </h1>
+    <h1 class="text-center text-success fs-3 fw-lighter">
+      Text Center Success fs-3 fw-lighter
+    </h1>
+    <h1 class="text-end text-danger fs-4 fst-italic">
+      Text End Danger fs-4 fst-italic
+    </h1>
+
+    <!-- Flexblox -->
+    <p>Flex</p>
+    <div
+      class="box p-3 bg-danger text-light fw-bold border border-dark border-5"
+    >
+      Box 1
+    </div>
+    <br />
+    <div
+      class="box p-3 bg-warning text-success fw-bold border border-dark border-start-0 border-2"
+    >
+      Box 2
+    </div>
+    <br />
+    <div
+      class="box p-3 bg-info text-primary fw-bold border border-dark border-top-0 border-5"
+    >
+      Box 3
+    </div>
+    <br />
+
+    <p>justify-content-around</p>
+    <div class="d-flex flex-row-reverse justify-content-around">
+      <div
+        class="box p-3 bg-danger text-light fw-bold border border-dark border-5 rounded-5"
+      >
+        Box 1
+      </div>
+      <div class="box p-3 bg-warning text-success fw-bold">Box 2</div>
+      <div
+        class="box p-3 bg-info text-primary fw-bold rounded-circle shadow-lg"
+      >
+        Box 3
+      </div>
+    </div>
+    <br />
+
+    <!-- Layout Bootstrap -->
+    <div class="row">
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+      <div class="col-1 bg-danger text-light">col 1</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-6 bg-danger text-light">col 1</div>
+      <div class="col-6 bg-success text-light">col 1</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-4 bg-danger text-light">col 1</div>
+      <div class="col-4 bg-success text-light">col 1</div>
+      <div class="col-4 bg-primary text-light">col 1</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-8 bg-danger text-light">col 1</div>
+      <div class="col-4 bg-success text-light">col 1</div>
+    </div>
+    <br />
+
+    <!-- Latihan Layout -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 bg-danger text-center">
+          <h1 class="text-center">Judul Halaman (col 12)</h1>
+        </div>
+        <div class="col-12 col-lg-4 bg-success text-light">
+          <p>sidebar (col 4)</p>
+          <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3</li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-8 bg-primary text-light">
+          <p>Content (col 8)</p>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bg-dark border border-light text-light">
+                <p>Card 1 (col1)</p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit minima cum animi vero modi culpa et dignissimos ullam
+                deleniti!
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bg-dark border border-light text-light">
+                <p>Card 2 (col2)</p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit minima cum animi vero modi culpa et dignissimos ullam
+                deleniti!
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bg-dark border border-light text-light">
+                <p>Card 3 (col3)</p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit minima cum animi vero modi culpa et dignissimos ullam
+                deleniti!
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="bg-dark border border-light text-light">
+                <p>Card 4 (col4)</p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit minima cum animi vero modi culpa et dignissimos ullam
+                deleniti!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 bg-warning text-center">
+          <p>footer</p>
+        </div>
+      </div>
+      <div class="container border border-dark">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sapiente
+        iste animi minus quam cupiditate fugit libero minima culpa, nemo
+        accusantium laborum esse. Dignissimos quas optio corrupti, quaerat
+        fugiat quos.
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+        <div class="col-1 bg-danger text-light">col 1</div>
+      </div>
+    </div>
+
+    <!-- JS Bootsrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
